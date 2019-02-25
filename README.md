@@ -11,7 +11,6 @@ ln -s /home/node/node-v10.15.0-linux-x64/bin/npm /usr/local/bin/npm
 
 
 
-
 ---------------安装nginx---------------
 
 mkdir nginx
