@@ -1,4 +1,5 @@
----------------安装node---------------
+#---------------安装node---------------
+
 mkdir node
 
 wget https://nodejs.org/dist/v10.15.0/node-v10.15.0-linux-x64.tar.xz
@@ -10,7 +11,7 @@ ln -s /home/node/node-v10.15.0-linux-x64/bin/npm /usr/local/bin/npm
 
 
 
----------------安装nginx---------------
+#---------------安装nginx---------------
 mkdir nginx
 
 yum install gcc gcc-c++
@@ -45,7 +46,7 @@ nginx安装目录地址 -c nginx配置文件地址
 
 
 
----------------安装mysql5.7---------------
+#---------------安装mysql5.7---------------
 设置mysql5.7安装源
 rpm -Uvh  http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
 
