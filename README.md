@@ -93,13 +93,19 @@ systemctl restart mysqld
 grant all privileges on *.* to 'root'@'%' identified by 'password';
 flush privileges;
 第一个*是数据库，可以改成允许访问的数据库名称
+
 第二个* 是数据库的表名称，*代表允许访问任意的表
+
 root代表远程登录使用的用户名，可以自定义
+
 %代表允许任意ip登录，如果你想指定特定的IP，可以把%替换掉就可以了
+
 password代表远程登录时使用的密码，可以自定义
+
 flush privileges;这是让权限立即生效
 
 修改my.cnf配置文件
+
 通过vim编辑该文件，找到bind-address = 127.0.0.1这一句，然后在前面加个#号注释掉，保存退出，没有就不用
 
 重启mysql
