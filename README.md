@@ -11,6 +11,7 @@ ln -s /home/node/node-v10.15.0-linux-x64/bin/npm /usr/local/bin/npm
 
 
 
+
 ---------------安装nginx---------------
 
 mkdir nginx
@@ -44,6 +45,7 @@ nginx安装目录地址 -c nginx配置文件地址
 /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 
 ./nginx -s reload
+
 
 
 
