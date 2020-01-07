@@ -5,6 +5,7 @@ mkdir node
 wget https://nodejs.org/dist/v10.15.0/node-v10.15.0-linux-x64.tar.xz
 
 tar xvf node-v10.15.0-linux-x64.tar.xz
+//node-v12.14.0-linux-x64.tar.xz
 
 ln -s /home/node/node-v10.15.0-linux-x64/bin/node /usr/local/bin/node
 
